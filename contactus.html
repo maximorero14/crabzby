@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Crabzby</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" href="images/crab.png" type="image/x-icon">
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<header id="header" >
+					<h1><a href="index.html">CRABZBY</a></h1>
+					<nav>
+						<a href="#menu">Menu</a>
+						<a href="tel:+1234567890">BOOK A CALL</a>
+					</nav>
+				</header>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li><a href="software_personalizado.html">Software Personalizado</a></li>
+							<li><a href="analitys.html">Analitys</a></li>
+							<li><a href="aws.html">AWS Cloud</a></li>
+							<li><a href="terms.html">Terms and Conditions</a></li>
+							<li><a href="contactus.html">Contact us</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+		
+				<!-- Footer -->
+				<section id="footer">
+					<div class="inner">
+						<h2 class="major">Get in touch</h2>
+						
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+							</div>
+							<div id="loadingDiv2">
+							<ul class="actions">
+								<li><button id="enviarBtn2" class="button primary fit" onclick="simularCarga2()">ENVIAR MENSAJE</button></li>
+							</ul>
+							</div>
+							<div id="mensajeEnviado2" style="display: none;">
+								¡Mensaje enviado!
+							  </div>
+						</form>
+						<ul class="contact">
+							<li class="icon solid fa-home">
+								Untitled Inc<br />
+								1234 Somewhere Road Suite #2894<br />
+								Nashville, TN 00000-0000
+							</li>
+							<li class="icon solid fa-phone">(000) 000-0000</li>
+							<li class="icon solid fa-envelope"><a href="mailto:ejemplo@example.com">hello@crabzby.com</a></li>
+						</ul>
+
+						<script>
+							function simularCarga2() {
+								// Mostrar el div de carga
+								document.getElementById("loadingDiv2").innerHTML = "Cargando...";
+
+								// Simular una demora de carga (3 segundos en este caso)
+								setTimeout(function() {
+									// Ocultar el div de carga y mostrar el mensaje de enviado
+									document.getElementById("loadingDiv2").style.display = "none";
+									document.getElementById("mensajeEnviado2").style.display = "block";
+								}, 3000);
+								}
+						  </script>
+						<ul class="copyright">
+							<li>Copyright  &copy; 2023 CRABZBY LLC</li>
+							<li><a href="terms.html">Terms and Conditions</a></li>
+							<li><a href="contactus.html">Contact Us</a></li>
+							<li><a href="policy.html">Privacy Policy</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+						</ul>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
