@@ -1,58 +1,114 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Crabzby</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" href="images/crab.png" type="image/x-icon">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
+    <meta charset="utf-8">
+    <title>Crabzby</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" href="img/crab.png" type="image/x-icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-				<!-- Header -->
-				<header id="header">
-					<h1><a href="index.html">CRABZBY</a></h1>
-					<nav>
-						<a href="#menu">Menu</a>
-					</nav>
-				</header>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 
-			<!-- Menu -->
-				<nav id="menu">
-					<div class="inner">
-						<h2>Menu</h2>
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="aboutus.html">About Us</a></li>
-							<li><a href="software_personalizado.html">Software Personalizado</a></li>
-							<li><a href="analitys.html">Analitys</a></li>
-							<li><a href="aws.html">AWS Cloud</a></li>
-							<li><a href="terms.html">Terms and Conditions</a></li>
-							<li><a href="contactus.html">Contact us</a></li>
-						</ul>
-						<a href="#" class="close">Close</a>
-					</div>
-				</nav>
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<header>
-							<div class="inner">
-								<div class="logo"> <span><img src="images/crab.png" alt="Logo"></span></div>
-								<h2>Privacy Policy</h2>
-								
-							</div>
-						</header>
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-									<h3 class="major">Privacy Policy									</h3>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+ <!-- Topbar Start -->
+ <div class="container-fluid bg-light d-none d-lg-block">
+    <div class="row align-items-center top-bar">
+        <div class="col-lg-3 col-md-12 text-center text-lg-start">
+            <a href="" class="navbar-brand m-0 p-0">
+                <h1 class="text-primary m-0">Crabzby</h1>
+            </a>
+        </div>
+        <div class="col-lg-9 col-md-12 text-end">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                <p class="m-0">2201 MENAUL BLVD NE, ALBUQUERQUE, NM 87107, USA</p>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <i class="far fa-envelope-open text-primary me-2"></i>
+                <p class="m-0"><a href="mailto:hello@crabzby.com">hello@crabzby.com</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+     <!-- Navbar Start -->
+     <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Crabzby</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="software_personalizado.html" class="dropdown-item">Software Personalizado</a>
+                            <a href="analitys.html" class="dropdown-item">Analitys</a>
+                            <a href="aws.html" class="dropdown-item">AWS Cloud</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">Emergencia 24/7</p>
+                        <h5 class="m-0 text-secondary"><a href="tel:+1 (505) 317-2869" style="color: red;">+1 (505) 317-2869</a></h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+     <!-- 404 Start -->
+     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
+                    <h1 class="display-1">Privacy Policy
+                    </h1>
 									<p>CRABZBY  LLC operates the crabzby.com , which provides the SERVICE.
 
 									</p>
@@ -164,102 +220,87 @@
 									<p></p>
 									<p></p>
 									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
-									<p></p>
 
 
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 404 End -->
 
-									
 
 
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>2201 MENAUL BLVD NE, ALBUQUERQUE, NM 87107, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+1 (505) 317-2869" style="color: red;">+1 (505) 317-2869</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a class="m-0" href="mailto:hello@crabzby.com">hello@crabzby.com</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Horas</h4>
+                    <h6 class="text-light">Lunes - Viernes:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Sabado - Domingo:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="software_personalizado.html">Software Personalizado</a>
+                    <a class="btn btn-link" href="analitys.html">Analitys</a>
+                    <a class="btn btn-link" href="aws.html">AWS Cloud</a><br>
+                    <h4 class="text-light mb-4">Legal</h4>
+                    <a class="btn btn-link" href="terms.html">Terms and Conditions</a>
+                    <a class="btn btn-link" href="policy.html">Privacy Policy</a>
+                    <a href="mailto:hello@crabzby.com">support@crabzby.com</a>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Sumate a nuestro Newsletter</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        Copyright  &copy; 2023 CRABZBY LLC, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
 
 
-								</div>
-							</div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-					</section>
 
-				<!-- Footer -->
-				<section id="footer">
-					<div class="inner">
-						<h2 class="major">Get in touch</h2>
-						
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="field">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="4"></textarea>
-								</div>
-							</div>
-							<div id="loadingDiv2">
-							<ul class="actions">
-								<li><button id="enviarBtn2" class="button primary fit" onclick="simularCarga2()">ENVIAR MENSAJE</button></li>
-							</ul>
-							</div>
-							<div id="mensajeEnviado2" style="display: none;">
-								¡Mensaje enviado!
-							  </div>
-						</form>
-						<ul class="contact">
-							<li class="icon solid fa-home">
-								CRABZBY LLC<br />
-								2201 MENAUL BLVD NE STE A<br />
-								ALBUQUERQUE, NM 87107
-							</li>
-							<li class="icon solid fa-phone"><a href="tel:+1 (505) 317-2869">+1 (505) 317-2869</a></li>
-							<li class="icon solid fa-envelope"><a href="mailto:hello@crabzby.com">hello@crabzby.com</a></li>
-						</ul>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-						<script>
-							function simularCarga2() {
-								// Mostrar el div de carga
-								document.getElementById("loadingDiv2").innerHTML = "Cargando...";
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 
-								// Simular una demora de carga (3 segundos en este caso)
-								setTimeout(function() {
-									// Ocultar el div de carga y mostrar el mensaje de enviado
-									document.getElementById("loadingDiv2").style.display = "none";
-									document.getElementById("mensajeEnviado2").style.display = "block";
-								}, 3000);
-								}
-						  </script>
-						<ul class="copyright">
-							<li>Copyright  &copy; 2023 CRABZBY LLC</li>
-							<li><a href="terms.html">Terms and Conditions</a></li>
-							<li><a href="contactus.html">Contact Us</a></li>
-							<li><a href="policy.html">Privacy Policy</a></li>
-							<li><a href="aboutus.html">About Us</a></li>
-							<li> <a href="mailto:support@crabzby.com"> support@crabzby.com</a></li>
-						</ul>
-					</div>
-				</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
